@@ -1,0 +1,56 @@
+/* src/App.css */
+
+body,
+.App {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+.header {
+  background-color: #0073b1;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav button,
+.header button {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+.main-content {
+  display: flex;
+  margin: 20px;
+}
+
+.article {
+  flex: 2;
+  margin-right: 20px;
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.sidebar {
+  flex: 1;
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar li {
+  padding: 10px 0;
+}
